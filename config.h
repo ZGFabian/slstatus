@@ -69,7 +69,7 @@ static const struct arg args[] = {
 	{ netspeed_rx, "[%s]", "wlp4s0"    },
 	{ cpu_perc, "[CPU %s%%]", NULL    },
 	{ ram_perc, "[RAM %s%%]", NULL    },
-	{ wifi_essid, "[NET %s]", "wlp4s0"    },
+	/* { wifi_perc, "[NET %s%%]", "wlp4s0"    }, */
 	{ disk_perc, "[HD %s%%]", "/"    },
-	{ datetime, "[%s]", "%F %T" },
+	{ datetime, "[%s]", "%b %d %a %T" },
 	};
